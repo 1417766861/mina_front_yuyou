@@ -1,0 +1,9 @@
+<!--pages/index/index.wxml-->
+<!-- <text>pages/index/index.wxml</text> -->
+<button open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo">
+  获取用户信息
+</button>
+<search-bar paramAtoB="666"></search-bar>
+<swiper-banner></swiper-banner>
+<tags-list></tags-list>
+<card-list></card-list>
